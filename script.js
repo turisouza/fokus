@@ -97,7 +97,7 @@ function alterarContexto (contexto) {
     //chamando o elemento "html" e selecionando o parâmetro "contexto" da propriedade "data-contexto"
     html.setAttribute("data-contexto", contexto);
     //chamando o elemento "banner" e selecionando o parâmetro "contexto" da propriedade "src"
-    banner.setAttribute("src", `/imagens/${contexto}.png`);
+    banner.setAttribute("src", `./imagens/${contexto}.png`);
     //criando uma função switch para criar uma condição para aplicar ou não um inner.HTML específico para cada case (case)
     switch (contexto) {
         //leitura do switch: Se o parâmetro for foco, então.  Se não, break. 
